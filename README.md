@@ -1,5 +1,5 @@
 # Filter-function
-Función filter
+# Función filter
 Se pide realizar una función que, a partir de una lista de libros y una cadena de
 caracteres, realice lo siguiente:
 Escriba por pantalla los libros que no tengan fecha de publicación
