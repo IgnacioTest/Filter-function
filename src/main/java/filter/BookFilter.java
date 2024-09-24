@@ -12,7 +12,6 @@ import java.util.stream.Collectors;
 public class BookFilter {
 
     public Optional<BookDate> filter(String filter, List<Book> books) {
-        Optional<BookDate> result;
         books.stream().filter(book -> book.getPublicationTimestamp() == null)
                 .forEach(book -> {
                     System.out.println("libros sin fecha de publicación:");
