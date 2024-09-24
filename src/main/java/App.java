@@ -2,17 +2,14 @@ import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import filter.BookFilter;
 import values.Book;
-import values.BookDate;
 
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.lang.reflect.Type;
 import java.util.List;
-import java.util.Optional;
 import java.util.Scanner;
 
 public class App {
-    public static void main(String[] args) throws FileNotFoundException {
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Gson gson = new Gson();
 
